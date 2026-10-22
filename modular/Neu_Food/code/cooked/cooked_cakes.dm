@@ -317,7 +317,7 @@
 
 //	..................	Lemon cake	..................
 /obj/item/reagent_containers/food/snacks/rogue/lemoncake
-	cuisine = CUISINE_SOUTH_IMPERIAL|CUISINE_OTAVAIS
+	cuisine = CUISINE_SOUTH_IMPERIAL|CUISINE_OTAVAIS|CUISINE_NALEDI
 	dish_type = DISH_PASTRY
 	name = "lemon cake"
 	desc = "A frosted cake with a rich citrus taste. A thick layer of lemon filling give it a sweet, tangy and zesty flavour."
@@ -338,7 +338,7 @@
 	bitesize = 16
 
 /obj/item/reagent_containers/food/snacks/rogue/lemoncakeslice
-	cuisine = CUISINE_SOUTH_IMPERIAL|CUISINE_OTAVAIS
+	cuisine = CUISINE_SOUTH_IMPERIAL|CUISINE_OTAVAIS|CUISINE_NALEDI
 	dish_type = DISH_PASTRY
 	name = "lemon cake slice"
 	desc = "A frosted cake slice with a rich citrus taste. A thick layer of lemon filling give it a sweet, tangy and zesty flavour."
@@ -358,7 +358,7 @@
 
 //	..................	Lime cake	..................
 /obj/item/reagent_containers/food/snacks/rogue/limecake
-	cuisine = CUISINE_SOUTH_IMPERIAL|CUISINE_OTAVAIS
+	cuisine = CUISINE_SOUTH_IMPERIAL|CUISINE_OTAVAIS|CUISINE_NALEDI
 	dish_type = DISH_PASTRY
 	name = "lime cake"
 	desc = "A frosted cake with a rich citrus taste. A thick layer of lime filling give it a sweet, tangy and zesty flavour."
@@ -379,7 +379,7 @@
 	bitesize = 16
 
 /obj/item/reagent_containers/food/snacks/rogue/limecakeslice
-	cuisine = CUISINE_SOUTH_IMPERIAL|CUISINE_OTAVAIS
+	cuisine = CUISINE_SOUTH_IMPERIAL|CUISINE_OTAVAIS|CUISINE_NALEDI
 	dish_type = DISH_PASTRY
 	name = "lime cake slice"
 	desc = "A frosted cake slice with a rich citrus taste. A thick layer of lime filling give it a sweet, tangy and zesty flavour."
@@ -655,7 +655,7 @@
 
 //	..................	Tangerine cake	..................
 /obj/item/reagent_containers/food/snacks/rogue/tangerinecake
-	cuisine = CUISINE_SOUTH_IMPERIAL|CUISINE_OTAVAIS
+	cuisine = CUISINE_SOUTH_IMPERIAL|CUISINE_OTAVAIS|CUISINE_NALEDI
 	dish_type = DISH_PASTRY
 	name = "tangerine cake"
 	desc = "A frosted cake with a rich citrus taste. A thick layer of tangerine filling give it a sweet, tangy and zesty flavour."
@@ -676,7 +676,7 @@
 	bitesize = 16
 
 /obj/item/reagent_containers/food/snacks/rogue/tangerinecakeslice
-	cuisine = CUISINE_SOUTH_IMPERIAL|CUISINE_OTAVAIS
+	cuisine = CUISINE_SOUTH_IMPERIAL|CUISINE_OTAVAIS|CUISINE_NALEDI
 	dish_type = DISH_PASTRY
 	name = "tangerine cake slice"
 	desc = "A frosted cake slice with a rich citrus taste. A thick layer of tangerine filling give it a sweet, tangy and zesty flavour."
@@ -765,7 +765,7 @@
 
 //	.................	Cooked	.................
 /obj/item/reagent_containers/food/snacks/rogue/ccake
-	cuisine = CUISINE_OTAVAIS
+	cuisine = CUISINE_OTAVAIS|CUISINE_NALEDI
 	dish_type = DISH_PASTRY|DISH_DAIRY
 	name = "cheesecake"
 	desc = "Humenity's favored creation."
@@ -785,7 +785,7 @@
 	bitesize = 16
 
 /obj/item/reagent_containers/food/snacks/rogue/ccakeslice
-	cuisine = CUISINE_OTAVAIS
+	cuisine = CUISINE_OTAVAIS|CUISINE_NALEDI
 	dish_type = DISH_DAIRY|DISH_PASTRY
 	name = "cheesecake slice"
 	desc = "A simple slice of humenity's favored creation."

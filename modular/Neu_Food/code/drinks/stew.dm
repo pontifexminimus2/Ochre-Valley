@@ -562,7 +562,7 @@
 	alpha = 200
 
 /datum/reagent/consumable/soup/stew/pepperfryfish
-	cuisine = CUISINE_RANESHENI
+	cuisine = CUISINE_RANESHENI|CUISINE_NALEDI
 	name = "pepper-spiced fish stew"
 	color = "#C65D5D"
 	taste_description = "flaky fish in a sharp, creamy broth with tongue-tingling spices"
