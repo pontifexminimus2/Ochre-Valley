@@ -83,7 +83,7 @@
 		M.heart_attack()
 
 /datum/reagent/consumable/caffeine/coffee
-	cuisine = CUISINE_RANESHENI
+	cuisine = CUISINE_RANESHENI|CUISINE_NALEDI
 	name = "coffee"
 	description = "Coffee beans brewed into a hot drink. With a hint of bitterness. Rejuvenating."
 	reagent_state = LIQUID
@@ -144,7 +144,7 @@
 	required_reagents = list(/datum/reagent/consumable/caffeine/coffee = 1, /datum/reagent/consumable/soup/stew/thickcheese = 1)
 
 /datum/reagent/consumable/caffeine/coffee_spiced
-	cuisine = CUISINE_RANESHENI
+	cuisine = CUISINE_RANESHENI|CUISINE_NALEDI
 	name = "spiced coffee"
 	description = "Spiced offee beans brewed into a hot drink, with a hint of bitterness. Modestly rejuvenating."
 	reagent_state = LIQUID
@@ -169,7 +169,7 @@
 				M.update_damage_overlays()
 
 /datum/reagent/consumable/caffeine/tea
-	cuisine = CUISINE_SOUTHEASTERN
+	cuisine = CUISINE_SOUTHEASTERN|CUISINE_NALEDI
 	name = "tea"
 	description = "Tea leaves brewed into a hot drink. Slight hint of bitterness. Smooth."
 	reagent_state = LIQUID

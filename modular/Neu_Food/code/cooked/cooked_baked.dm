@@ -1207,7 +1207,7 @@
 	tastes = list("soft and fluffy dough" = 1, "caramelized apple slices" = 1)
 /*	.................	Challah	................... */
 /obj/item/reagent_containers/food/snacks/rogue/challah
-	cuisine = CUISINE_RANESHENI
+	cuisine = CUISINE_RANESHENI|CUISINE_NALEDI
 	dish_type = DISH_BREAD
 	name = "challah loaf"
 	desc = "A Nshkormh loaf of bread, made from leavened dough and egg, the communities of Psydonites in the region continued it's usage even during the Sun Dominion's banning of it's creation for it's 'rejection of Astratan butterness'."
@@ -1243,7 +1243,7 @@
 			changefood(slice_path, eater)
 
 /obj/item/reagent_containers/food/snacks/rogue/challah_slice
-	cuisine = CUISINE_RANESHENI
+	cuisine = CUISINE_RANESHENI|CUISINE_NALEDI
 	dish_type = DISH_BREAD
 	name = "sliced challah"
 	desc = "Some would dip the slice into salt to complete the bread at this point, but it is what it is."
