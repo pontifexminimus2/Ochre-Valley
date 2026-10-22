@@ -30,7 +30,7 @@
 	brew_mend(M, 0.3, 0.1)
 
 /datum/reagent/consumable/brew/eorasloveteatrue
-	cuisine = CUISINE_NORTH_IMPERIAL|CUISINE_SOUTH_IMPERIAL|CUISINE_OTAVAIS|CUISINE_NORTHERN|CUISINE_ETRUSCAN|CUISINE_SOUTHEASTERN|CUISINE_RANESHENI
+	cuisine = CUISINE_NORTH_IMPERIAL|CUISINE_SOUTH_IMPERIAL|CUISINE_OTAVAIS|CUISINE_NORTHERN|CUISINE_ETRUSCAN|CUISINE_SOUTHEASTERN|CUISINE_RANESHENI|CUISINE_NALEDI
 	quality = DRINK_VERYGOOD
 	name = "Eora's Love"
 	description = "Humenkind cannot love like the gods, but they do not need to. They have each other and this bond is Eora's most cherished fact of the world."
@@ -52,7 +52,7 @@
 	brew_buff = /datum/status_effect/buff/brew/ravox_calm
 
 /datum/reagent/consumable/caffeine/mocha
-	cuisine = CUISINE_RANESHENI
+	cuisine = CUISINE_RANESHENI|CUISINE_NALEDI
 	quality = DRINK_GOOD
 	name = "Veranda Coffee"
 	description = "I make this pot in the name of the Allfather, stranger. Sit down and drink. As long the brew remains, we shall be brothers. When it is empty, we will depart and maybe see each other again."
@@ -134,7 +134,7 @@ How strange.\n\
 You see the sky from a pit and a palace both."))
 
 /datum/reagent/consumable/caffeine/chai
-	cuisine = CUISINE_SOUTHEASTERN|CUISINE_RANESHENI
+	cuisine = CUISINE_SOUTHEASTERN|CUISINE_RANESHENI|CUISINE_NALEDI
 	quality = DRINK_GOOD
 	name = "Chai"
 	description = "And on we march to unite the Isles. Gleaming naginatas clash against wicker shields and in the nite we drink Aisata's favoured tea."

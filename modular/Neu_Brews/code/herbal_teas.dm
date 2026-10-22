@@ -101,7 +101,7 @@
 	M.add_nausea(1)
 
 /datum/reagent/consumable/brew/psytea
-	cuisine = CUISINE_OTAVAIS|CUISINE_RANESHENI
+	cuisine = CUISINE_OTAVAIS|CUISINE_RANESHENI|CUISINE_NALEDI
 	quality = DRINK_NICE
 	name = "Pilgrim Tea"
 	description = "A favourite among psydonic pilgrims, the hardy plant makes for a surprisingly palatable tea."
@@ -117,7 +117,7 @@
 	brew_buff = /datum/status_effect/buff/brew/constitution
 
 /datum/reagent/consumable/brew/nettletea
-	cuisine = CUISINE_NORTH_IMPERIAL|CUISINE_NORTHERN
+	cuisine = CUISINE_NORTH_IMPERIAL|CUISINE_NORTHERN|CUISINE_NALEDI
 	quality = DRINK_NICE
 	name = "Nettle Tea"
 	description = "Drunk by soldiers who want to freshen up their water rations in the field."
