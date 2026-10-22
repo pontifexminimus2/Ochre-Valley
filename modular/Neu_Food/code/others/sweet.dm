@@ -173,7 +173,7 @@
 		icon_state = "caramel1"
 
 /obj/item/reagent_containers/food/snacks/dragee
-	cuisine = CUISINE_OTAVAIS
+	cuisine = CUISINE_OTAVAIS|CUISINE_NALEDI
 	dish_type = DISH_SWEET
 	name = "dragée"
 	icon = 'modular/Neu_Food/icons/others/sweet.dmi'

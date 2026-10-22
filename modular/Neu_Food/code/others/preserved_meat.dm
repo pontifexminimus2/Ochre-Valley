@@ -74,7 +74,7 @@
 		icon_state = "jerk1"
 
 /obj/item/reagent_containers/food/snacks/rogue/lemoncoppiette
-	cuisine = CUISINE_NORTH_IMPERIAL|CUISINE_ETRUSCAN|CUISINE_RANESHENI
+	cuisine = CUISINE_NORTH_IMPERIAL|CUISINE_ETRUSCAN|CUISINE_RANESHENI|CUISINE_NALEDI
 	dish_type = DISH_MEAT
 	eat_effect = null
 	name = "lemony stickets"

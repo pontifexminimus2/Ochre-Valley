@@ -217,7 +217,7 @@
 	foodtype = GRAIN | DAIRY
 
 /obj/item/reagent_containers/food/snacks/rogue/cookied
-	cuisine = CUISINE_OTAVAIS
+	cuisine = CUISINE_OTAVAIS|CUISINE_NALEDI
 	dish_type = DISH_PASTRY
 	name = "baked slab of dragéelidough"
 	desc = "The inverse to hardtack; both in reputation and taste. Just a passing whiff reminds you of your youth - though, perhaps it wouldn't hurt to bring out a knife and share that feeling with some friends."
@@ -257,7 +257,7 @@
 			changefood(slice_path, eater)
 
 /obj/item/reagent_containers/food/snacks/rogue/cookiesliced
-	cuisine = CUISINE_OTAVAIS
+	cuisine = CUISINE_OTAVAIS|CUISINE_NALEDI
 	dish_type = DISH_PASTRY
 	name = "dragéelie"
 	desc = "Crispy, moist, sweet and savory.. and in this case, oozing with sweetened lifeblood; a sliver of ontological goodness, cradled in the palm of your hand."
@@ -296,7 +296,7 @@
 	foodtype = GRAIN | DAIRY
 
 /obj/item/reagent_containers/food/snacks/rogue/cookiec
-	cuisine = CUISINE_RANESHENI
+	cuisine = CUISINE_RANESHENI|CUISINE_NALEDI
 	dish_type = DISH_PASTRY
 	name = "baked slab of carameliedough"
 	desc = "The inverse to hardtack; both in reputation and taste. Just a passing whiff reminds you of times abroad - though, perhaps it wouldn't hurt to bring out a knife and share that feeling with some friends."
@@ -336,7 +336,7 @@
 			changefood(slice_path, eater)
 
 /obj/item/reagent_containers/food/snacks/rogue/cookieslicec
-	cuisine = CUISINE_RANESHENI
+	cuisine = CUISINE_RANESHENI|CUISINE_NALEDI
 	dish_type = DISH_PASTRY
 	name = "caramelie"
 	desc = "Crispy, moist, sweet and savory.. and a bit stickier than usual; a sliver of ontological goodness, cradled in the palm of your hand."
