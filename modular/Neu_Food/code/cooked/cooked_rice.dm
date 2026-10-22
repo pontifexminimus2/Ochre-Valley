@@ -96,7 +96,7 @@
 
 /*	.................	Rice & bird ................... */
 /obj/item/reagent_containers/food/snacks/rogue/ricebird
-	cuisine = CUISINE_SOUTHEASTERN|CUISINE_RANESHENI
+	cuisine = CUISINE_SOUTHEASTERN|CUISINE_RANESHENI|CUISINE_NALEDI
 	dish_type = DISH_POULTRY
 	name = "rice and frybird"
 	tastes = list("rice" = 1, "tasty birdmeat" = 1)
@@ -110,7 +110,7 @@
 
 /*	.................	Rice & bird & carrots ................... */
 /obj/item/reagent_containers/food/snacks/rogue/ricebirdcar
-	cuisine = CUISINE_SOUTHEASTERN|CUISINE_RANESHENI
+	cuisine = CUISINE_SOUTHEASTERN|CUISINE_RANESHENI|CUISINE_NALEDI
 	dish_type = DISH_POULTRY|DISH_VEGETABLE
 	name = "rice and frybird meal"
 	tastes = list("rice" = 1, "tasty birdmeat" = 1, "carrot" = 1)
